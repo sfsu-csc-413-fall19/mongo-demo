@@ -17,7 +17,7 @@ public class Main {
     // get ref to collection
     MongoCollection<Document> myColection = db.getCollection("MyCollection");
     // create a new document
-
+/*
     Document doc = new Document("name", "MongoDB")
         .append("type", "database")
         .append("count", 1)
@@ -46,5 +46,6 @@ public class Main {
 
     // updating a value
     myColection.updateOne(eq("count", 1), new Document("$set", new Document("count", 110)));
+    */
   }
 }
